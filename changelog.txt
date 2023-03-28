@@ -1,0 +1,5 @@
+Tool Used: Microsoft Excel
+
+Formatted the columns to bold to improve readability.
+Added a column named 'total' which is the price multiply by quantity.
+Turned the dataset into Table.

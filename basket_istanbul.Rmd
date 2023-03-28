@@ -1,0 +1,121 @@
+---
+title: "Market Basket Analysis in Istanbul Retail Data"
+author: "R.Ellazar"
+date: "2023-03-28"
+output: pdf_document
+---
+
+\newpage
+
+# Introduction
+
+The dataset being introduced contains shopping information from 10 different shopping malls between 2021 and 2023. The data was gathered from various age groups and genders, providing a comprehensive view of shopping habits in Istanbul.
+
+Included in the dataset are essential pieces of information such as Invoice numbers, Customer IDs, Age, Gender, Payment methods, Product categories, Quantity, Price, Order dates, and Shopping mall locations.
+
+I should note that the dataset presented is intended for exploratory analysis purposes. As such, I believe it can serve as a starting point for further investigation into shopping behaviors in Istanbul. The data contained is raw and unprocessed, allowing me to develop my own unique insights and interpretations. I intend to approach the data with an open mind, as the patterns and trends I uncover may be unexpected.
+
+# Analysis
+
+## Gender Preferences for Malls in Turkey
+
+![gender preferences for malls in turkey](chart/gender_malls.png)
+
+**Findings:**
+
+It can be seen that Kanyon and Mall of Istanbul have the highest number of female customers, with **11,906** and **11,902** respectively, while Cevahir AVM and Emaar Square Mall have the lowest number of female customers, with **2,940** and **2,842** respectively.
+
+On the other hand, Mall of Istanbul has the highest number of male customers with **8,041**, followed by Kanyon with **7,917** male customers. In contrast, the malls with the lowest male customer counts are Viaport Outlet and Forum Istanbul, with **1,965** and **1,931** respectively.
+
+These findings indicate that Mall of Istanbul and Kanyon are the most popular shopping destinations for both female and male customers in Istanbul. Businesses that are looking to expand their customer base or launch new products may want to consider these malls as potential locations for their operations.
+
+
+\newpage
+
+
+## Total Spending of Men and Women
+
+![total spending of men and women](chart/total_spent_mw.png)
+
+**Findings:**
+
+Female mall shoppers spent significantly more than male customers during the specified time frame. This could indicate that women are more active shoppers.
+
+But, are female shoppers purchasing expensive items or buying a larger quantity of items?
+
+## Distribution of Quantity by Gender and Category
+
+![distribution of quantity by gender and category](chart/quantity_gender.png)
+
+
+\newpage
+
+
+**Findings:**
+
+The top categories for both females and males are Clothing and Cosmetics, followed by Food & Beverage. This suggests that fashion and personal care products are some of the most popular items across genders.
+
+The least bought items based on quantity are Books, Technology, and Souvenirs for both female and male customers. This could be due to various reasons such as the availability of e-books and online shopping for books, and the preference of customers to buy souvenirs from other locations rather than malls. And there could be several reasons why technology is the third least bought item based on quantity. One possibility is that technology products tend to be more expensive compared to other items, so even though they are bought less frequently, they may still generate significant revenue.
+
+
+
+## Total Sales in Each Category
+
+![total sales in each category](chart/total_sales_category.png)
+
+**Findings:**
+
+Clothing and Shoes are the most profitable categories, followed by Technology. Cosmetics, Toys, Food & Beverage, Books, and Souvenir have significantly lower total sales compared to the top three categories. This suggests that Clothing, Shoes and Technology are the most popular categories who are willing to spend more money on products, while the other categories may have lower price points or may not be as popular among customers.
+
+But, On Figure 3, Technology is the third least bought items based on quantity and yet it generates more revenue. One possibility is that technology products tend to have higher profit margins, meaning that even though fewer items are sold, the profit per item sold is higher. Another possibility is that technology products tend to be more expensive than other categories, which also contributes to higher revenue. Additionally, it's possible that the marketing and advertising strategies for technology products are more effective in generating sales and revenue, despite selling fewer items.
+
+
+\newpage
+
+
+## Quantity Breakdown of Sales by Mall Category
+
+![quantity breakdown of sales by mall category](chart/quantity_mall.png)
+
+**Findings:**
+
+Clothing, Food & Beverage, and Cosmetics are the top three categories, while Technology, Books, and Souvenir are the top three least bought categories based on quantity across all malls.
+
+These malls may have different target markets, marketing strategies, or product offerings that affect their sales performance. It would be interesting to further analyze the data to understand why these malls have lower sales compared to others.
+
+It's also worth nothing that the location of the mall can also play a role in sales, as malls situated in more densely populated or affluent areas may see higher sales than those located in less populated or less affluent areas.
+
+
+\newpage
+
+
+## Total Sales Breakdown by Mall
+
+![total sales breakdown by mall](chart/sales_mall.png)
+
+**Findings:**
+
+Mall of Istanbul and Kanyon are the top two malls generating the most revenue. They are followed by Metrocity and Metropol AVM in the third and fourth positions respectively.
+
+Interestingly, Zorlu Center which has the least quantity of sales in Figure 5, with a total quantity of **15,234** in all categories, still manages to generate significant revenue, ranking at the sixth position in terms of total sales. Cevahir AVM, Viaport Outlet, Emaar Square Mall, and Forum Istanbul are the bottom four malls in terms of total sales.
+
+
+
+\newpage
+
+
+# Conclusion
+
+Lorem ipsum dolor sit amet. Sit dicta dicta est internos minima qui veritatis modi ea unde pariatur hic molestiae voluptas est eligendi unde. Ea iure nihil ea quidem iste eum cumque autem. Ea internos assumenda ab blanditiis natus ut perferendis excepturi et fuga quos non nulla iste 33 vero repellendus. Eum quod galisum vel nulla dolorum ut dolores unde ex eius consectetur.
+
+Aut quod dignissimos sit maiores modi quo omnis unde. Non voluptatem minus sed nihil beatae sed praesentium illo.
+
+Ut officiis consequuntur ex atque omnis et molestiae sint est rerum voluptatem est nihil illum aut unde placeat in velit numquam! Ut facilis magni ut omnis deleniti sit internos quidem sit rerum praesentium et sequi optio et pariatur delectus.
+
+# Next Steps
+
+Lorem ipsum dolor sit amet. Sit dicta dicta est internos minima qui veritatis modi ea unde pariatur hic molestiae voluptas est eligendi unde. Ea iure nihil ea quidem iste eum cumque autem. Ea internos assumenda ab blanditiis natus ut perferendis excepturi et fuga quos non nulla iste 33 vero repellendus. Eum quod galisum vel nulla dolorum ut dolores unde ex eius consectetur.
+
+Aut quod dignissimos sit maiores modi quo omnis unde. Non voluptatem minus sed nihil beatae sed praesentium illo.
+
+Ut officiis consequuntur ex atque omnis et molestiae sint est rerum voluptatem est nihil illum aut unde placeat in velit numquam! Ut facilis magni ut omnis deleniti sit internos quidem sit rerum praesentium et sequi optio et pariatur delectus.
