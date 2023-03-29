@@ -6,6 +6,8 @@ Source of the Dataset: https://www.kaggle.com/datasets/mehmettahiraslan/customer
 
 Read the Paper: https://github.com/rkellazar/Market-Basket-Analysis/blob/main/istanbul_mall.pdf
 
+## Introduction
+
 The dataset being introduced contains shopping information from 10 different shopping malls between 2021and 2023. The data was gathered from various age groups and genders, providing a comprehensive view ofshopping habits in Istanbul.
 
 Included in the dataset are essential pieces of information such as Invoice numbers, Customer IDs, Age,Gender, Payment methods, Product categories, Quantity, Price, Order dates, and Shopping mall locations.
