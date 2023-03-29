@@ -3,6 +3,7 @@
 ![turkey mall](images/turkey-mall.jpeg)
 
 Source of the Dataset: https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset
+Read the Paper: 
 
 The dataset being introduced contains shopping information from 10 different shopping malls between 2021and 2023. The data was gathered from various age groups and genders, providing a comprehensive view ofshopping habits in Istanbul.
 
